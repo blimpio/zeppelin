@@ -14,7 +14,7 @@ On the browser:
 
     bower install zeppelin
 
-*Be sure to put the Zeppelin library after the Backbon library.*
+*Be sure to put the Zeppelin library after the Backbone library.*
 
 Building
 --------
