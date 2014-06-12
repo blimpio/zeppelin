@@ -1,6 +1,6 @@
 {
   "name": "zeppelin",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1",
   "description": "A Backbone Framework used to build Blimp Boards (https://github.com/GetBlimp/boards).",
   "main": "lib/zeppelin.js",
   "dependencies": {},

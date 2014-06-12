@@ -11,7 +11,7 @@
 
   Zeppelin.$ = Backbone.$;
   Zeppelin.extend = Backbone.View.extend;
-  Zeppelin.VERSION = '0.0.1-alpha';
+  Zeppelin.VERSION = '0.0.1';
 
   // require src/utils.js
   // require src/subscriptions.js
