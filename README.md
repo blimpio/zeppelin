@@ -103,6 +103,10 @@ A region manages view rendering on a specific element. In a Zeppelin app views d
     var content = new ContentRegion();
     content.show(SomeView);
 
+### Simple app structure example:
+
+[http://jsbin.com/wadam/6/edit](http://jsbin.com/wadam/6/edit)
+
 ## Views
 
 In addition to components that help structure your app, Zeppelin has a couple of views that solve common tasks like rendering a collection or binding a model to a form.
