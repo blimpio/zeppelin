@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../bower_components/mocha/mocha.css" />
+  </head>
+  <body>
+    <div id="mocha">
+      <div id="application"></div>
+    </div>
+
+    <!-- Testing Dependencies -->
+    <script src="../bower_components/mocha/mocha.js"></script>
+    <script src="../bower_components/chai/chai.js"></script>
+    <script src="../bower_components/sinonjs/sinon.js"></script>
+    <script src="../bower_components/sinon-chai/lib/sinon-chai.js"></script>
+    <script>
+      mocha.ui('bdd');
+      mocha.reporter('dot');
+      window.expect = chai.expect;
+    </script>
+
+    <!-- Library Dependencies -->
+    <script src="../bower_components/lodash/dist/lodash.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/backbone/backbone.js"></script>
+    <script src="../bower_components/handlebars/handlebars.js"></script>
+
+    <!-- Zeppelin -->
+    <script src="../lib/zeppelin.js"></script>
+
+    <!-- Setup & Overrides -->
+    <script>
+      jQuery.ajaxSetup({processData: false});
+    </script>
+
+    <!-- Tests -->
+    <script src="events-test.js"></script>
+    <script src="storage-test.js"></script>
+    <script src="validations-test.js"></script>
+
+    <script>
+      if (window.mochaPhantomJS) {
+        mochaPhantomJS.run();
+      } else {
+        mocha.run();
+      }
+    </script>
+  </body>
+</html>

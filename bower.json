@@ -1,0 +1,28 @@
+{
+  "name": "zeppelin",
+  "version": "0.0.1-alpha",
+  "description": "A Backbone Framework used to build Blimp Boards (https://github.com/GetBlimp/boards).",
+  "keywords": [
+    "backbone",
+    "framework"
+  ],
+  "main": "lib/zeppelin.js",
+  "ignore": [
+    "lib",
+    "build",
+    "gulpfile",
+    "node_modules"
+  ],
+  "dependencies": {
+    "lodash": "~2",
+    "jquery": "~2",
+    "backbone": "~1",
+    "handlebars": "~1"
+  },
+  "devDependencies": {
+    "chai": "~1",
+    "mocha": "~1",
+    "sinonjs": "~1",
+    "sinon-chai": "~2.5.0"
+  }
+}

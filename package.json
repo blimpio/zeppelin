@@ -1,0 +1,24 @@
+{
+  "name": "zeppelin",
+  "version": "0.0.1-alpha",
+  "description": "A Backbone Framework used to build Blimp Boards (https://github.com/GetBlimp/boards).",
+  "main": "lib/zeppelin.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.5.0",
+    "gulp-util": "^2.2.12",
+    "gulp-concat": "^2.1.7",
+    "gulp-uglify": "^0.1.0",
+    "gulp-beautify": "^1.0.3",
+    "phantomjs": "^1.9.2-6",
+    "mocha-phantomjs": "^3.3.1",
+    "jshint-stylish": "^0.1.5",
+    "gulp-jshint": "^1.4.0",
+    "gulp-replace": "^0.2.0"
+  },
+  "keywords": [
+    "backbone",
+    "framework"
+  ],
+  "author": "Elving Rodriguez"
+}

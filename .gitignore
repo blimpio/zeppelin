@@ -1,0 +1,40 @@
+# Logs
+pids
+logs
+results
+npm-debug.log
+
+# Numerous always-ignore extensions
+lib-cov
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+nbproject
+Thumbs.db
+
+# NPM packages folder.
+node_modules/
+
+# Bower stuff.
+bower_components/
