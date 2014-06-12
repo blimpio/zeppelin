@@ -7,13 +7,13 @@ Installing
 ----------
 
 On node:
-    
-    npm install zeppelin
-    
+
+    npm install blimp-zeppelin
+
 On the browser:
-    
-    bower install zeppelin    
-    
+
+    bower install zeppelin
+
 *Be sure to put the Zeppelin library after the Backbon library.*
 
 Building
